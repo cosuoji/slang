@@ -49,7 +49,7 @@ export default function SlangPage() {
 
   // Share info
   const shareUrl = `${window.location.origin}/slangs/${slang.slug}`;
-  const shareText = `Check out this Naija slang: "${slang.word}" – ${slang.meaning}`;
+  const shareText = `Check out this slang from Lamba Wiki: "${slang.word}" – ${slang.meaning}`;
 
   return (
     <div className="max-w-lg pt-10 mx-auto p-6 rounded shadow-sm bg-white">
